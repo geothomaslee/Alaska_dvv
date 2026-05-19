@@ -1,0 +1,5 @@
+This contains all dv/v time-series, for all events, at all frequencies, pre-quality control. 
+
+These are meant to be read with SeisMIC's read_dv function, and documentation for this can be found on their GitHub. However, these are NumPy array files,
+and can be read as such if preferred. After loading using numpy.load(), the dv/v values can be found in the column 'value', 
+while the time-stamps can be obtained from 'sim_mat'. 
